@@ -3,7 +3,7 @@ The Big Counter Manual
 ****************************************************************************************************
 --help            -h     Prints this help information.
 --command         -c     Launches the application in "command mode", issuing persisted
-                         incrementation commands to the shared storage.
+                         incrementation commands to the shared storage at regular intervals.
 --executor        -e     Launches the application in "follower mode", executing new commands
                          whenever they are found in the shared storage
 --single-version, -sv    Forces the application to persist both commands and counters in

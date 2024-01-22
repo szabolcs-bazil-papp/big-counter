@@ -1,0 +1,15 @@
+****************************************************************************************************
+The Big Counter Manual
+****************************************************************************************************
+--help            -h     Prints this help information.
+--command         -c     Launches the application in "command mode", issuing persisted
+                         incrementation commands to the shared storage.
+--executor        -e     Launches the application in "follower mode", executing new commands
+                         whenever they are found in the shared storage
+--single-version, -sv    Forces the application to persist both commands and counters in
+                         single-version storage.
+--name            -n     Sets the application name.
+                         Usage: `--name MyName` or `-n MyName`
+                         The application name is used to write a `MyName.pid` file to the
+                         application's directory to ease stopping instances running in clusters.
+****************************************************************************************************
